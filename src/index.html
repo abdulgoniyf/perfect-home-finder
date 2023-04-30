@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Home Finder</title>
+    <script src="https://kit.fontawesome.com/950b9df7b8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <nav class="header__container">
+                <a href="./" class="header__logo">
+                    <img src="./assets/icons/header/logo.svg">
+                </a>
+                <div class="header__actions">
+                    <input type="checkbox" id="check">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Listing</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Property</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Agents</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Blog</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="header__button button">Sign In</a>
+                    <label for="check" id="burger">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                </div>
+            </nav>
+        </header>
+
+        <main class="page">
+
+            <section class="main-block">
+                <div class="main-block__container">
+                    <h1 class="main-block__title">
+                        Easy way to find a home that’s perfect for you
+                    </h1>
+                    <p class="main-block__text">The find and most trusted marketplace of design & build house in the
+                        world.</p>
+                    <div class="main-block__searching searching">
+                        <ul class="searching-menu">
+                            <li class="searching-menu__item">
+                                <a href="#" class="searching-menu__link searching-menu__link_active">Rent</a>
+                            </li>
+                            <li class="searching-menu__item">
+                                <a href="#" class="searching-menu__link">Buy</a>
+                            </li>
+                            <li class="searching-menu__item">
+                                <a href="#" class="searching-menu__link">Sell</a>
+                            </li>
+                        </ul>
+                        <div class="searching__items">
+
+                            <div class="searching__column">
+                                <div class="searching__item item-searching">
+                                    <p class="item-searching__info"><i class="fa-solid fa-location-dot"></i>&nbsp;
+                                        Location</p>
+                                    <h3 class="item-searching__title">Los Angels</h3>
+                                </div>
+                            </div>
+                            <div class="searching__column">
+                                <div class="searching__item item-searching">
+                                    <p class="item-searching__info"><i class="fa-solid fa-key"></i>&nbsp; Property Type
+                                    </p>
+                                    <h3 class="item-searching__title">Delux</h3>
+                                </div>
+                            </div>
+                            <div class="searching__column">
+                                <div class="searching__item item-searching">
+                                    <p class="item-searching__info"><i class="fa-solid fa-unlock-keyhole"></i>&nbsp;
+                                        Average Price</p>
+                                    <h3 class="item-searching__title">$7000 - 8000</h3>
+                                </div>
+                            </div>
+                            <div class="searching__column">
+                                <div class="searching__item item-searching">
+                                    <a href="#" class="searching__button button button_large">Search</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <img src="./assets/images/main-block/background.svg">
+                </div>
+            </section>
+
+            <section class="rent">
+                <div class="rent__container">
+                    <div class="rent__header">
+                        <div class="rent__header-block header-block">
+                            <h2 class="header-block__title">See our properties</h2>
+                            <p class="header-block__text">The modern way to sell/buy/rent your own home.</p>
+                        </div>
+                        <div class="rent__categories">
+                            <div class="rent__category">
+                                <input type="radio" name="type" id="rent" checked>
+                                <label for="rent">Rent</label>
+                            </div>
+                            <div class="rent__cateogory">
+                                <input type="radio" name="type" id="buy">
+                                <label for="buy">Buy</label>
+                            </div>
+                            <div class="rent__category">
+                                <input type="radio" name="type" id="sell">
+                                <label for="sell">Sell</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rent__body">
+                        <div class="rent__column">
+                            <article class="rent-card">
+                                <a href="#">
+                                    <img src="./assets/images/rent/01.jpg" class="rent-card__image">
+                                </a>
+                                <h3 class="rent-card__title">Nomaden Omah Sekut</h3>
+                                <p class="rent-card__text">San Diego, California, USA</p>
+                                <p class="rent-card__price">$699,000</p>
+                                <div class="rent-card__details">
+                                    <span>2 Beds</span>
+                                    <span>1 Bath</span>
+                                    <span>1,109 sqft</span>
+                                </div>
+                                <a href="#" class="rent-card__button button button_transparent">See Details</a>
+                            </article>
+                        </div>
+                        <div class="rent__column">
+                            <article class="rent-card">
+                                <a href="#">
+                                    <img src="./assets/images/rent/02.jpg" class="rent-card__image">
+                                </a>
+                                <h3 class="rent-card__title">Real Bluestyle House</h3>
+                                <p class="rent-card__text">San Diego, California, USA</p>
+                                <p class="rent-card__price">$10,00,000</p>
+                                <div class="rent-card__details">
+                                    <span>3 Beds</span>
+                                    <span>2 Bath</span>
+                                    <span>1,109 sqft</span>
+                                </div>
+                                <a href="#" class="rent-card__button button button_transparent">See Details</a>
+                            </article>
+                        </div>
+                        <div class="rent__column">
+                            <article class="rent-card">
+                                <a href="#">
+                                    <img src="./assets/images/rent/03.jpg" class="rent-card__image">
+                                </a>
+                                <h3 class="rent-card__title">Luxury Umahu Mantappu</h3>
+                                <p class="rent-card__text">San Diego, California, USA</p>
+                                <p class="rent-card__price">$599,000</p>
+                                <div class="rent-card__details">
+                                    <span>2 Beds</span>
+                                    <span>1 Bath</span>
+                                    <span>1,009 sqft</span>
+                                </div>
+                                <a href="#" class="rent-card__button button button_transparent">See Details</a>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="rent__footer">
+                        <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="benefits">
+                <div class="benefits__container">
+                    <div class="benefits__image _ibg">
+                        <img src="./assets/images/benefits/image.svg">
+                    </div>
+                    <div class="benefits__content">
+                        <div class="benefits__header-block header-block">
+                            <h2 class="header-block__title">See some benefit from our properties</h2>
+                        </div>
+                        <div class="benefits__items">
+                            <div class="benefits__item item-benefits">
+                                <div class="item-benefits__image">
+                                    <img src="./assets/icons/benefits/01.svg">
+                                </div>
+                                <div class="item-benefits__about">
+                                    <h3 class="item-benefits__title">100& Protection</h3>
+                                    <p class="item-benefits__text">All secure protection for your future house</p>
+                                </div>
+                            </div>
+                            <div class="benefits__item item-benefits">
+                                <div class="item-benefits__image">
+                                    <img src="./assets/icons/benefits/02.svg">
+                                </div>
+                                <div class="item-benefits__about">
+                                    <h3 class="item-benefits__title">Top Tier House</h3>
+                                    <p class="item-benefits__text">We just provide top tier house for you</p>
+                                </div>
+                            </div>
+                            <div class="benefits__item item-benefits">
+                                <div class="item-benefits__image">
+                                    <img src="./assets/icons/benefits/03.svg">
+                                </div>
+                                <div class="item-benefits__about">
+                                    <h3 class="item-benefits__title">Transparancy</h3>
+                                    <p class="item-benefits__text">Transparancy is always for customers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer"></footer>
+
+    </div>
+</body>
+
+</html>
